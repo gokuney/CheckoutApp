@@ -43,7 +43,7 @@ Go to the project directory
 Create virtual environment(recommended)
 
 ```bash
-  python3 -v venv .env
+  python3 -m venv .env
 ```
 
 Activate the virtual environment
