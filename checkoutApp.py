@@ -46,6 +46,8 @@ class CheckOut:
         log.info(f"Item {item} added to cart!")
 
     def showCart(self):
+        """Shows the current cart in tabular format
+        """
         headers = ["Item", "Quantity"]
         print(
             tabulate([[k, v] for k, v in self.cart.items()], headers=headers, tablefmt="grid"))
